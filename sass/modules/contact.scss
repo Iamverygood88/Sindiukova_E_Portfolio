@@ -44,6 +44,7 @@
     border-top: 3px solid #60454c;
     border-left: 3px solid #60454c;
     border-bottom: 3px solid #60454c;
+    
 
 }
 
@@ -79,12 +80,12 @@ border-bottom: 3px solid #60454c;
         
         appearance: none;
         -webkit-appearance: none;
-        border-bottom: 2px solid #60454c;
-        border-left: 2px solid #60454c;
-        border-right: 2px solid #60454c;
-        // border: 2px solid #60454c;
+        // border-bottom: 2px solid #60454c;
+        // border-left: 2px solid #60454c;
+        // border-right: 2px solid #60454c;
+        border: 2px solid #60454c;
 
-        border-top:none;
+      
 
     }
 
@@ -130,10 +131,11 @@ border-bottom: 3px solid #60454c;
         // border: none;
         appearance: none;
         -webkit-appearance: none;
-        border-bottom: 2px solid #60454c;
-        border-left: 2px solid #60454c;
-        border-right: 2px solid #60454c;
-        border-top:none;
+        // border-bottom: 2px solid #60454c;
+        // border-left: 2px solid #60454c;
+        // border-right: 2px solid #60454c;
+        border: 2px solid #60454c
+        // border-top:none;
 
     }
 

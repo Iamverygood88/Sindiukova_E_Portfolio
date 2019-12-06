@@ -155,10 +155,7 @@
     background: none;
     appearance: none;
     -webkit-appearance: none;
-    border-bottom: 2px solid #60454c;
-    border-left: 2px solid #60454c;
-    border-right: 2px solid #60454c;
-    border-top: none; }
+    border: 2px solid #60454c; }
   #formThree input::placeholder {
     color: #60454c;
     padding-top: 175px;
@@ -188,10 +185,7 @@
     background: none;
     appearance: none;
     -webkit-appearance: none;
-    border-bottom: 2px solid #60454c;
-    border-left: 2px solid #60454c;
-    border-right: 2px solid #60454c;
-    border-top: none; }
+    border: 2px solid #60454c; }
   .formTwo input::placeholder {
     color: #60454c;
     font-size: 20px;
