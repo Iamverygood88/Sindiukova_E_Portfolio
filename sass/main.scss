@@ -1,0 +1,995 @@
+@import 'modules/_vars.scss';
+@import 'modules/reset';
+@import 'modules/header';
+@import 'modules/contact';
+@import 'modules/_lightbox';
+@import 'modules/_errors';
+@import 'modules/nav';
+@import 'modules/about';
+@import 'modules/portfolio';
+
+
+.hidden {
+    display: none;
+}
+
+
+
+.home-page {
+
+
+    width: 100%;
+    height: 100%; 
+    background: url(../images/home_page.jpg) center;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    
+
+    h2 {
+
+        margin-top: 2%;
+        color: white;
+        margin-bottom: 30px;
+        font-size: 23px;
+        text-transform: uppercase;
+
+    }
+    p {
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+
+
+.name-surname {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.square-one {
+    margin-left: 15px;
+    width: 70px;
+    height: 110px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.square-two {
+    margin-right: 15px;
+    width: 70px;
+    height: 110px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+
+.bubble-1 {
+    margin-left: 90%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    filter: blur(5px);
+    -webkit-animation: bubbleone 130s infinite alternate; 
+     animation: bubbleone 130s infinite alternate;
+     
+
+}
+
+
+@-webkit-keyframes bubbleone {
+    0%   {margin-left: 90%;}
+    30% {margin-top: 73%;
+         margin-left: 30%;}
+    70% {margin-top: 50%;
+         margin-left: 50%;}
+    100% {margin-left: 10%;
+          margin-top:40%;
+    }
+  }
+  
+
+  @keyframes bubbleone {
+    0%   {margin-left: 90%;}
+    30% {margin-top: 73%;
+         margin-left: 30%;}
+    70% {margin-top: 50%;
+         margin-left: 50%;}
+    100% {margin-left: 10%;
+          margin-top:40%;
+    }
+  }
+
+
+.bubble-2 {
+    display: none;
+   
+     
+
+}
+
+
+.bubble-3 {
+    margin-left: 6%;
+    margin-top: 0%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: blur(5px);
+    -webkit-animation: bubblethree 150s infinite alternate; 
+     animation: bubblethree 150s infinite alternate;
+     
+
+
+}
+
+@-webkit-keyframes bubblethree {
+    0%   {margin-left: 6%;
+        margin-top: 0%;}
+    30% {margin-top: 50%;
+         margin-left: 50%;}
+    70% {margin-top: 80%;
+         margin-left: 80%;}
+    100% {margin-left: 6%;
+        margin-top: 0%;
+    }
+  }
+  
+
+  @keyframes bubblethree {
+    0%   {margin-left: 6%;
+        margin-top: 0%;}
+    30% {margin-top: 50%;
+         margin-left: 50%;}
+    70% {margin-top: 80%;
+         margin-left: 80%;}
+    100% {margin-left: 6%;
+        margin-top: 0%;
+    }
+  }
+
+.bubble-4 {
+    display: none;
+    
+}
+
+
+.bubble-5 {
+    margin-left: 23%;
+    margin-top: 65%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-animation: bubblefive 130s infinite alternate; 
+     animation: bubblefive 130s infinite alternate;
+     
+
+}
+
+@-webkit-keyframes bubblefive {
+    0%   {margin-left: 23%;
+        margin-top: 65%;}
+    30% {margin-top: 90%;
+         margin-left: 0%;}
+    70% {margin-top: 70%;
+         margin-left: 60%;}
+    100% {margin-left: 23%;
+        margin-top: 65%;
+    }
+  }
+  
+
+  @keyframes bubblefive {
+    0%   {margin-left: 23%;
+        margin-top: 65%;}
+    30% {margin-top: 90%;
+         margin-left: 0%;}
+    70% {margin-top: 70%;
+         margin-left: 60%;}
+    100% {margin-left: 23%;
+        margin-top: 65%;
+    }
+  }
+
+
+
+
+.bubble-6 {
+    margin-left: 80%;
+    margin-top: 90%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-animation: bubblesix 140s infinite alternate; 
+     animation: bubblesix 140s infinite alternate;
+     
+
+}
+
+@-webkit-keyframes bubblesix {
+    0%   {margin-left: 80%;
+        margin-top: 90%;}
+    30% {margin-top: 50%;
+         margin-left: 10%;}
+    70% {margin-top: 0%;
+         margin-left: 45%;}
+    100% {margin-left: 80%;
+        margin-top: 90%;
+    }
+  }
+  
+
+  @keyframes bubblesix {
+    0%   {margin-left: 80%;
+        margin-top: 90%;}
+    30% {margin-top: 50%;
+         margin-left: 10%;}
+    70% {margin-top: 0%;
+         margin-left: 45%;}
+    100% {margin-left: 80%;
+        margin-top: 90%;
+    }
+  }
+
+.bubble-7 {
+
+    margin-left: 58%;
+    margin-top: 61%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-animation: bubbleseven 150s infinite alternate; 
+     animation: bubbleseven 150s infinite alternate;
+
+}
+
+@-webkit-keyframes bubbleseven {
+    0%   {margin-left: 58%;
+        margin-top: 61%;}
+    30% {margin-top: 30%;
+         margin-left: 10%;}
+    70% {margin-top: 0%;
+         margin-left: 84%;}
+    100% {margin-left: 58%;
+        margin-top: 61%;
+    }
+  }
+  
+
+  @keyframes bubbleseven {
+    0%   {margin-left: 58%;
+        margin-top: 61%;}
+    30% {margin-top: 30%;
+         margin-left: 10%;}
+    70% {margin-top: 0%;
+         margin-left: 84%;}
+    100% {margin-left: 58%;
+        margin-top: 61%;
+    }
+  }
+
+.bubble-8 {
+    display: none;
+
+}
+
+.bubble-9 {
+    display: none;
+}
+
+.bubble-10 {
+    display: none;
+    
+}
+
+
+.bubble-11 {
+    margin-left: 83%;
+    margin-top: 55%;
+    position: absolute;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: blur(5px);
+    -webkit-animation: bubbleeleven 150s infinite alternate; 
+     animation: bubbleeleven 150s infinite alternate;
+
+}
+
+@-webkit-keyframes bubbleeleven {
+    0%   {margin-left: 83%;
+        margin-top: 55%;}
+    30% {margin-top: 40%;
+         margin-left: 75%;}
+    70% {margin-top: 0%;
+         margin-left: 10%;}
+    100% {margin-left: 83%;
+        margin-top: 55%;
+    }
+  }
+  
+
+  @keyframes bubbleeleven {
+    0%   {margin-left: 83%;
+        margin-top: 55%;}
+    30% {margin-top: 40%;
+         margin-left: 75%;}
+    70% {margin-top: 0%;
+         margin-left: 10%;}
+    100% {margin-left: 83%;
+        margin-top: 55%;
+    }
+  }
+
+
+.bubble-12 {
+    display: none;
+
+}
+
+
+.button-video {
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width:200px;
+    height:50px;
+    border-radius: 35px;
+    margin: 10% auto 0 auto;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px #4a313c;
+
+
+    h3 {
+        color: white;
+        text-transform: uppercase;
+        padding-top: 16px;
+        text-align: center;
+
+    }
+
+}
+
+.button-video:hover {
+    h3 {
+        color:#60454c;
+    }
+}
+
+.button-video:hover {
+    opacity: 80%;
+
+}
+
+
+
+.arrow-down {
+    margin: 50% auto 0 auto;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 5px grey;
+    cursor: pointer;
+
+    img {
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .home-page {
+
+        margin-left: 0px;
+        margin-right: 0px;
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            
+            font-size: 30px;
+           
+        }
+    }
+
+
+
+      .bubble-4 {
+        display: block;
+        margin-left: 15%;
+        margin-top: 15%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        -webkit-animation: bubblefour 160s infinite alternate; 
+         animation: bubblefour 160s infinite alternate;
+         
+    
+    }
+    
+    @-webkit-keyframes bubblefour {
+        0%   {margin-left: 15%;
+            margin-top: 15%;}
+        30% {margin-top: -20%;
+             margin-left: 80%;}
+        70% {margin-top: 70%;
+             margin-left: 50%;}
+        100% {margin-left: 15%;
+            margin-top: 15%;
+        }
+      }
+      
+    
+      @keyframes bubblefour {
+        0%   {margin-left: 15%;
+            margin-top: 15%;}
+        30% {margin-top: -20%;
+             margin-left: 80%;}
+        70% {margin-top: 70%;
+             margin-left: 50%;}
+        100% {margin-left: 15%;
+            margin-top: 15%;
+        }
+      }
+
+      .bubble-8 {
+        display: block;
+        margin-left: 65%;
+        margin-top: 15%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        -webkit-animation: bubbleeight 160s infinite alternate; 
+        //  animation: bubbleseeight 40s infinite alternate;
+    
+    }
+    
+    @-webkit-keyframes bubbleeight  {
+        0%   { margin-left: 65%;
+            margin-top: 15%;}
+        30% {margin-top: 0%;
+             margin-left: 15%;}
+        70% {margin-top: 50%;
+             margin-left: -15%;}
+        100% {margin-left: 65%;
+            margin-top: 15%;
+        }
+      }
+      
+    
+      @keyframes bubbleeight  {
+        0%   { margin-left: 65%;
+            margin-top: 15%;}
+        30% {margin-top: 0%;
+             margin-left: 15%;}
+        70% {margin-top: 50%;
+             margin-left: -15%;}
+        100% {margin-left: 65%;
+            margin-top: 15%;
+        }
+      }
+
+      .bubble-9 {
+        display: block;
+        margin-left: 60%;
+        margin-top: 30%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubblenine 130s infinite alternate; 
+         animation: bubblenine 130s infinite alternate;
+    
+    }
+    
+    @-webkit-keyframes bubblenine {
+        0%   {margin-left: 60%;
+            margin-top: 36%;}
+        30% {margin-top: 10%;
+             margin-left: 90%;}
+        70% {margin-top: 20%;
+             margin-left: 50%;}
+        100% {margin-left: 60%;
+            margin-top: 36%;
+        }
+      }
+      
+    
+      @keyframes bubblenine {
+        0%   {margin-left: 60%;
+            margin-top: 36%;}
+        30% {margin-top: 10%;
+             margin-left: 90%;}
+        70% {margin-top: 20%;
+             margin-left: 50%;}
+        100% {margin-left: 60%;
+            margin-top: 36%;
+        }
+      }
+
+      .button-video {
+        margin: 0 auto 0 auto;
+        
+    
+    
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .home-page {
+
+
+        h2 {
+        margin-top: 8%;
+    }
+}
+
+    .bubble-2 {
+        display: block;
+        margin-left: -5%;
+        margin-top: 10%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubbletwo 140s infinite alternate; 
+         animation: bubbletwo 140s infinite alternate;
+         
+    
+    }
+    
+    @-webkit-keyframes bubbletwo {
+        0%   {margin-left: -5%;
+            margin-top: 10%;}
+       35% {margin-top: -10%;
+            margin-left: 50%;}
+       75% {margin-top: 50%;
+            margin-left: 80%;}
+       100% {margin-left: -5%;
+        margin-top: 10%;
+       }
+      }
+      
+    
+      @keyframes bubbletwo {
+        0%   {margin-left: -5%;
+             margin-top: 10%;}
+        35% {margin-top: -10%;
+             margin-left: 50%;}
+        75% {margin-top: 50%;
+             margin-left: 80%;}
+        100% {margin-left: -5%;
+            margin-top: 10%;
+        }
+      }
+
+      .bubble-10 {
+        display: block;
+        margin-left: 85%;
+        margin-top: 40%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubbleten 140s infinite alternate; 
+         animation: bubbleten 140s infinite alternate;
+         
+    
+    }
+    
+    
+    @-webkit-keyframes bubbleten {
+        0%   {margin-left: 85%;
+            margin-top: 40%;}
+        30% {margin-top: 20%;
+             margin-left: 60%;}
+        70% {margin-top: -10%;
+             margin-left: 20%;}
+        100% {margin-left: 85%;
+            margin-top: 40%;
+        }
+      }
+      
+    
+      @keyframes bubbleten {
+        0%   {margin-left: 85%;
+            margin-top: 40%;}
+        30% {margin-top: 20%;
+             margin-left: 60%;}
+        70% {margin-top: -10%;
+             margin-left: 20%;}
+        100% {margin-left: 85%;
+            margin-top: 40%;
+        }
+      }
+
+      .bubble-12 {
+        display: block;
+        margin-left: 88%;
+        margin-top: 10%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubbletwelv 160s infinite alternate; 
+         animation: bubbletwelv 160s infinite alternate;
+    
+    }
+    
+    @-webkit-keyframes bubbletwelv {
+        0%   {margin-left: 80%;
+            margin-top: 47%;}
+        30% {margin-top: 20%;
+             margin-left: 60%;}
+        70% {margin-top: 0%;
+             margin-left: 40%;}
+        100% {margin-left: 80%;
+            margin-top: 47%;
+        }
+      }
+      
+    
+      @keyframes bubbletwelv {
+        0%   {margin-left: 88%;
+            margin-top: 10%;}
+        30% {margin-top: 54%;
+             margin-left: 26%;}
+        70% {margin-top: 0%;
+             margin-left: 0%;}
+        100% {margin-left: 88%;
+            margin-top: 10%;
+        }
+      }
+
+
+      .arrow-down {
+        margin: 15% auto 0 auto;
+        
+    }
+
+    .bubble-1 {
+        margin-left: 10%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubbleone 130s infinite alternate; 
+         animation: bubbleone 130s infinite alternate;
+         
+    
+    }
+    
+    
+    @-webkit-keyframes bubbleone {
+        0%   {margin-left: 10%;}
+        30% {margin-top: 33%;
+             margin-left: 30%;}
+        70% {margin-top: 10%;
+             margin-left: 50%;}
+        100% {margin-left: 10%;
+              margin-top: 0%;
+        }
+      }
+      
+    
+      @keyframes bubbleone {
+        0%   {margin-left: 10%;}
+        30% {margin-top: 33%;
+             margin-left: 30%;}
+        70% {margin-top: 10%;
+             margin-left: 50%;}
+        100% {margin-left: 10%;
+              margin-top: 0%;
+        }
+      }
+    
+    
+    
+    .bubble-3 {
+        margin-left: 6%;
+        margin-top: 33%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubblethree 150s infinite alternate; 
+         animation: bubblethree 150s infinite alternate;
+         
+    
+    
+    }
+    
+    @-webkit-keyframes bubblethree {
+        0%   {margin-left: 6%;
+            margin-top: 33%;}
+        30% {margin-top: 50%;
+             margin-left: 50%;}
+        70% {margin-top: 20%;
+             margin-left: 80%;}
+        100% {margin-left: 6%;
+            margin-top: 33%;
+        }
+      }
+      
+    
+      @keyframes bubblethree {
+        0%   {margin-left: 6%;
+            margin-top: 33%;}
+        30% {margin-top: 50%;
+             margin-left: 50%;}
+        70% {margin-top: 20%;
+             margin-left: 80%;}
+        100% {margin-left: 6%;
+            margin-top: 33%;
+        }
+      }
+    
+    
+    
+    .bubble-5 {
+        margin-left: 23%;
+        margin-top: 25%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        -webkit-animation: bubblefive 130s infinite alternate; 
+         animation: bubblefive 130s infinite alternate;
+         
+    
+    }
+    
+    @-webkit-keyframes bubblefive {
+        0%   {margin-left: 23%;
+            margin-top: 25%;}
+        30% {margin-top: 45%;
+             margin-left: 0%;}
+        70% {margin-top: 30%;
+             margin-left: 60%;}
+        100% {margin-left: 23%;
+            margin-top: 25%;
+        }
+      }
+      
+    
+      @keyframes bubblefive {
+        0%   {margin-left: 23%;
+            margin-top: 25%;}
+        30% {margin-top: 45%;
+             margin-left: 0%;}
+        70% {margin-top: 30%;
+             margin-left: 60%;}
+        100% {margin-left: 23%;
+            margin-top: 25%;
+        }
+      }
+    
+    
+    
+    
+    .bubble-6 {
+        margin-left: 33%;
+        margin-top: 19.7%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        -webkit-animation: bubblesix 140s infinite alternate; 
+         animation: bubblesix 140s infinite alternate;
+         
+    
+    }
+    
+    @-webkit-keyframes bubblesix {
+        0%   {margin-left: 33%;
+            margin-top: 19.7%;}
+        30% {margin-top: 10%;
+             margin-left: 10%;}
+        70% {margin-top: 20%;
+             margin-left: 45%;}
+        100% {margin-left: 33%;
+            margin-top: 19.7%;
+        }
+      }
+      
+    
+      @keyframes bubblesix {
+        0%   {margin-left: 33%;
+            margin-top: 19.7%;}
+        30% {margin-top: 10%;
+             margin-left: 10%;}
+        70% {margin-top: 20%;
+             margin-left: 45%;}
+        100% {margin-left: 33%;
+            margin-top: 19.7%;
+        }
+      }
+    
+    .bubble-7 {
+    
+        margin-left: 58%;
+        margin-top: 21%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        -webkit-animation: bubbleseven 150s infinite alternate; 
+         animation: bubbleseven 150s infinite alternate;
+    
+    }
+    
+    @-webkit-keyframes bubbleseven {
+        0%   {margin-left: 58%;
+            margin-top: 21%;}
+        30% {margin-top: -10%;
+             margin-left: 10%;}
+        70% {margin-top: 15%;
+             margin-left: 84%;}
+        100% {margin-left: 58%;
+            margin-top: 21%;
+        }
+      }
+      
+    
+      @keyframes bubbleseven {
+        0%   {margin-left: 58%;
+            margin-top: 21%;}
+        30% {margin-top: -10%;
+             margin-left: 10%;}
+        70% {margin-top: 15%;
+             margin-left: 84%;}
+        100% {margin-left: 58%;
+            margin-top: 21%;
+        }
+      }
+    
+    
+    .bubble-11 {
+        margin-left: 83%;
+        margin-top: 25%;
+        position: absolute;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        filter: blur(5px);
+        -webkit-animation: bubbleeleven 150s infinite alternate; 
+         animation: bubbleeleven 150s infinite alternate;
+    
+    }
+    
+    @-webkit-keyframes bubbleeleven {
+        0%   {margin-left: 83%;
+            margin-top: 25%;}
+        30% {margin-top: 0%;
+             margin-left: 75%;}
+        70% {margin-top: 42%;
+             margin-left: 10%;}
+        100% {margin-left: 83%;
+            margin-top: 25%;
+        }
+      }
+      
+    
+      @keyframes bubbleeleven {
+        0%   {margin-left: 83%;
+            margin-top: 25%;}
+        30% {margin-top: 0%;
+             margin-left: 75%;}
+        70% {margin-top: 42%;
+             margin-left: 10%;}
+        100% {margin-left: 83%;
+            margin-top: 25%;
+        }
+      }
+
+      .square-one {
+        margin-left: 0px; 
+        width: 100px;
+        height: 140px;
+        border-top: 10px solid white;
+        border-left: 10px solid white;
+        border-bottom: 10px solid white;
+    }
+    
+    .square-two {
+        margin-right: 0px;
+        width: 100px;
+        height: 140px;
+        border-top: 10px solid white;
+        border-right: 10px solid white;
+        border-bottom: 10px solid white;
+    }
+
+    .name-surname {
+        margin-top: 8%;
+    }
+
+    .home-page {
+
+        background: url(../images/home_page.jpg) center;
+      
+        
+    
+    
+
+
+}
+
+.button-video {
+    margin: 2% auto 0 auto;
+    
+
+
+}
+
+}
+
+
+
+  
+   
+
+
+
+

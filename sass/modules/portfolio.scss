@@ -1,0 +1,343 @@
+@import '_vars.scss';
+@import 'about.scss';
+
+
+.portfolio {
+    width: 100%; 
+    height: 100%; 
+    background: url(../images/portfolio_page.jpg) center;
+
+    h2 {
+        padding-top: 15px;
+        padding-bottom: 50px;
+        color: white;
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+    }
+}
+
+.box-about-portfolio {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square-about-one-portfolio {
+    width: 40px;
+    height: 60px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.square-about-two-portfolio {
+    width: 40px;
+    height: 60px;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+ 
+
+.project-2 {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 270px;
+    background: white;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 7px 7px 5px #4a313c;
+
+
+    img {
+        width: 270px;
+        height: 300px;
+    }
+
+}
+
+
+.hover-option {
+    display: none;
+    top: 67%;
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    background-color: white;
+    opacity: 0.7;
+    -webkit-transition:  10s ease-out;
+    transition: 10s ease-out;
+
+    .button-portfolio {
+        margin: 30px auto;
+        border-radius: 35px;
+        background-color: rgb(198,86,84);
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        width:200px;
+        height:50px;
+    }
+
+    p {
+        color: white;
+        font-size: 15px;
+        padding-top: 15px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+    }
+}
+
+.project-2:hover {
+    .hover-option {
+        display: block;
+        height: 100px;
+    }
+
+}
+
+
+
+
+
+.project-1 {
+    position: relative;
+    float: left;
+    width: 290px;
+    background: none;
+    height: 320px;
+    border-radius: 35px;
+
+    cursor: pointer;
+    
+
+    h3 {
+
+        color: white;
+        padding-top: 175px;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+
+    }
+}
+
+.nav-circles {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.circle-1 {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid  white;
+
+}
+
+.circle-2 {
+    width: 15px;
+    height: 15px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid  white;
+
+}
+
+.circle-1:hover {
+    background-color:  white;
+}
+
+.circle-2:hover {
+    background-color:  white;
+}
+
+
+
+
+
+.projects {
+    position: relative;
+    width: 2250px;
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+    justify-content: space-between;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.project-wrapper {
+
+    margin-left: 1%;
+    height: 60%;
+    width:290px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .circle-1 {
+        display: none;
+    }
+
+    .circle-2 {
+        display: none;
+    }
+
+    .project-wrapper {
+        width:580px;
+    }
+
+    .projects {
+        margin: 0 auto;
+        width: 500px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .box-about-portfolio {
+        padding-bottom: 10px;
+
+    }
+
+    .project-2 {
+        height: 240px;
+        width: 210px;
+
+    img {
+        height: 240px;
+        width: 210px;
+
+    }
+
+}
+
+    .project-1 {
+        height: 260px;
+        width: 230px;
+        
+    }
+
+    .portfolio {
+    
+        h2 {
+            font-size: 30px;
+           
+        }
+    }
+
+    .hover-option {
+        top: 59%;
+        width: 210px;
+    
+    }
+
+   
+    
+
+     
+    
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .project-wrapper {
+        width:1000px;
+    }
+
+    .projects {
+        width: 1000px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .project-2 {
+        height: 300px;
+        width: 270px;
+        position: absolute;
+        background: white;
+        cursor: pointer;
+
+        img {
+            height: 300px;
+            width: 270px;
+        }
+    
+    }
+    
+  
+    .project-1 {
+        position: relative;
+        float: left;
+        background: none;
+        cursor: pointer;
+        height: 320px;
+        width: 290px;
+        
+    }
+
+    .portfolio h2 {
+        padding-bottom: 45px;
+
+    }
+
+    .portfolio {
+         
+        height: 110%; 
+
+    }
+
+    .box-about-portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+   
+
+    .hover-option {
+        top: 67%;  
+        width: 270px;
+        height: 0px;
+       
+    
+    }
+
+
+
+
+
+
+}
+

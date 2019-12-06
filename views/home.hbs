@@ -1,0 +1,191 @@
+
+<section class="home-page" id="home">
+        <h2 class="hidden">Header Section</h2>
+        <div class="position">
+        <div class="logo">
+            <img src="../images/logo_sindiukova_e.svg">
+        </div>
+       
+        <div class="mobile-navigation-button">
+            <div class="circle">
+                <div class="white-line"></div>
+            </div>
+            <div class="circle">
+                <div class="white-line"></div>
+            </div>
+            <div class="circle">
+                <div class="white-line"></div>
+            </div>
+            
+        </div>
+        </div>
+        <div class="opened-menu ">
+            
+            <div class="close-btn">
+            <img src="../images/close-button.svg">
+            </div>
+            <nav>
+            <a href="#home" class="top-nav-link">Home</a>
+            <a href="#about1" class="top-nav-link">About Me</a>
+            <a href="#portfolio1" class="top-nav-link">Portfolio</a>
+            <a href="#contacts1" class="top-nav-link">Contact</a>
+        </nav>
+            
+                
+        </div>
+        
+    <div class="bubbles">
+    <div class="bubble-1"></div>
+    <div class="bubble-2"></div>
+    <div class="bubble-3"></div>
+    <div class="bubble-4"></div>
+    <div class="bubble-5"></div>
+    <div class="bubble-6"></div>
+    <div class="bubble-7"></div>
+    <div class="bubble-8"></div>
+    <div class="bubble-9"></div>
+    <div class="bubble-10"></div>
+    <div class="bubble-11"></div>
+    <div class="bubble-12"></div>
+    </div>
+    <div class="name-surname">
+    <div class="square-one"></div>
+    <div class="name">        
+    <h2>Evgeniia Sindiukova</h2>
+    <p>Junior Web Developer</p>
+    </div>
+    <div class="square-two"></div>
+    </div>
+
+    <div class="arrow-down">
+        <img src="../images/arrow.svg">
+    </div>
+
+</section>
+<section class="about" id='about1'>
+    <h2 class="hidden">About Page</h2>
+    <div class="box-about">
+    <div class="square-about-one"></div>
+    <h3>About Me</h3>
+    <div class="square-about-two"></div>
+    </div>
+        <div class="portfolio-image-main">
+            <div class="portfolio-image-main-two">
+            <img src="../images/image_me.jpg">
+            </div>
+
+            <div class="description-desktop">
+                <p class="main-text top">My name is Evgeniia and I am an Interactive Media Design Student who likes spending the free time learning different programming languages. 
+</p>
+                <p class="main-text underline">Skills</p>
+                <p class="main-text">Languages: HTML, CSS, JS, Sass, PHP, SQL.</p>
+                <p class="main-text">Tools & Technologies: Google Analytics, Node.js, npm, gulp, MySQL, Laravel, Express.</p>
+            </div>
+
+    </div>
+</section>
+<section class="portfolio" id="portfolio1">
+    <div class="box-about-portfolio">
+    <div class="square-about-one-portfolio"></div>
+    <h2>Portfolio</h2>
+    <div class="square-about-two-portfolio"></div>
+    </div>
+    <div class="left">
+    <div class="project-wrapper">
+    <div class="projects" style="right:0;">
+        {{#each  data}}
+        <div class="project-1"  data-offset="1">
+            <div class="project-2">
+                <div class="hover-option">
+                    <div class="button-portfolio" href="{{id}}">
+                    <p>Click to open</p>
+                    </div>
+                    
+                    
+                </div>
+                <img src="../images/{{image}}">
+                 
+            </div>
+            
+        </div>
+        {{/each }}
+    </div>
+    </div>
+    </div>
+    <div class="nav-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        
+    </div>
+    <div class="button-video"><h3>Watch the video</h3></div>
+    <div class="lightbox-video">
+        <span class="close-btn-video">
+            <img src="../images/close-button.svg">
+        </span>
+    </div>
+
+    </section>
+    <section class="lightbox">
+        <span class="close">
+            <img src="../images/close-button.svg">
+        </span>
+
+        <div class="lb-content">
+
+        </div>
+    </section>
+
+
+</section>
+<section class="contact" id="contacts1">
+    <div class="box-about">
+    <div class="square-about-one"></div>
+    <h3>Contact</h3>
+    <div class="square-about-two"></div>
+    </div>
+
+    <form id="contactForm" action="">
+			<div class="formTwo">
+                <input type="text" required id="name"  size="32" placeholder="name" class="colortext" name="name"> 
+                <input type="text" id="subject"  size="32" placeholder="subject" class="colortext" name="subject"> 
+
+			 </div>
+			<div id="formThree">
+                	
+				<input type="email" required id="emailAddress" size="32" placeholder="Email" class="colortext" name="usermail">
+		
+
+			</div>
+			<div id="formFive">
+
+				<textarea id="comments" name="message" rows="5"
+				cols="33" class="colortext one" placeholder="Message" name="message"></textarea>
+		
+
+			</div>
+           
+			<div id="buttonForm">
+				<button class="buttonFormOne" type="submit" name="button1">Send</button>
+			
+            </div>
+
+		</form>
+        <div class="lightbox-form">
+        <span class="close-btn-form">
+            <img src="../images/close-button.svg">
+        </span>
+        <div class="contact-message">
+            <p>Thank you for contacting me! I will reply to you as soon as possible.</p>
+        </div>
+
+        </div>
+            
+
+            
+
+</section>
+
+
+    
+   
+   

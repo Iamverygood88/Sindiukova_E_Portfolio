@@ -1,0 +1,84 @@
+@import '_vars.scss';
+
+
+
+.position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 13px;
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+.mobile-navigation-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+  
+
+}
+
+
+.circle {
+    margin-top: 5px;
+    margin-right: 13px;
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.white-line {
+    margin-top: 40%;
+    background: white;
+    width: 9px;
+    height: 3px;
+    margin-left: 28%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .logo {
+    
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .circle {
+        margin-top: 5px;
+        margin-right: 13px;
+        background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        
+        
+    }
+    
+    .white-line {
+        margin-top: 40%;
+        background: white;
+        width: 18px;
+        height: 5px;
+        margin-left: 22%;
+    }
+
+}
+
+
+

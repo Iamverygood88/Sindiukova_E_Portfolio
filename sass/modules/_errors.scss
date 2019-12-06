@@ -1,0 +1,49 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+}
+
+.error-section  {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    font-size: 25px; 
+    line-height: 60px;
+
+    a {
+        font-family: 'Alata', sans-serif;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .error-section {
+
+        img {
+            width: 598px;
+        }
+
+    }
+
+
+
+}
+
+
+
+

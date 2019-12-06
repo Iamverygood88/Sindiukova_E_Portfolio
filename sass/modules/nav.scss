@@ -1,0 +1,79 @@
+@import '_vars.scss';
+
+.opened-menu {
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+    -webkit-clip-path: circle(100px at 100% -15%);
+    clip-path: circle(100px at 100% -15%);
+    transition: all 3s ease-out;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40%;
+    text-align: center;
+    a {
+      text-decoration: none;
+       color: white;
+       cursor: pointer;
+       padding-top: 30px;
+       font-size: 35px;
+
+    }
+}
+
+.opened-menu.open {
+
+    clip-path: circle(1500px at 100% -15%);
+    -webkit-clip-path: circle(1500px at 100% -15%);
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .opened-menu.open {
+
+        clip-path: circle(750px at 100% -15%);
+        -webkit-clip-path: circle(750px at 100% -15%);
+    
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 5%;
+        padding-left: 65%;
+        
+    }
+    
+    
+}
+
+
+
+
+
+  
+
+
+

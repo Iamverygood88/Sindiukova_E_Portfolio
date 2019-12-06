@@ -1,0 +1,96 @@
+.about {
+  width: 100%;
+  height: 100%;
+  background: url(../images/about_page.jpg) center; }
+  .about h3 {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    color: #60454c;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Alata', sans-serif; }
+  .about p {
+    font-family: 'Alata', sans-serif;
+    color: #60454c;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    line-height: 23px; }
+  .about .box-about {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+.square-about-one {
+  width: 40px;
+  height: 60px;
+  border-top: 3px solid #60454c;
+  border-left: 3px solid #60454c;
+  border-bottom: 3px solid #60454c; }
+
+.square-about-two {
+  width: 40px;
+  height: 60px;
+  border-top: 3px solid #60454c;
+  border-right: 3px solid #60454c;
+  border-bottom: 3px solid #60454c; }
+
+.portfolio-image-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .portfolio-image-main img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; }
+  .portfolio-image-main .portfolio-image-main-two {
+    margin: 0 auto 20px auto; }
+
+.main-text {
+  margin-bottom: 5px; }
+
+.underline {
+  text-decoration: underline; }
+
+@media screen and (min-width: 768px) {
+  .portfolio-image-main img {
+    width: 400px;
+    height: 400px; }
+  .portfolio-image-main .portfolio-image-main-two {
+    margin: 50px auto 100px auto; }
+  .portfolio-image-main .main-text {
+    margin-bottom: 15px; }
+  .about p {
+    font-size: 23px;
+    text-align: center;
+    line-height: 30px; }
+  .about h3 {
+    font-size: 30px; }
+  .description-desktop {
+    width: 650px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 1200px) {
+  .portfolio-image-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .portfolio-image-main img {
+      border-radius: 50%;
+      width: 500px;
+      height: 500px; }
+    .portfolio-image-main .portfolio-image-main-two {
+      margin: 50px auto 0 60px; }
+  .about .box-about {
+    padding-top: 50px; }
+  .about p {
+    line-height: 40px;
+    text-align: left;
+    font-size: 26px; }
+  .top {
+    margin-top: 160px; }
+  .description-desktop {
+    width: 40%;
+    height: 500px; } }

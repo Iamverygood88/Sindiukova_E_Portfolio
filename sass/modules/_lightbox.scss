@@ -1,0 +1,251 @@
+.lightbox { 
+    display: none;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    overflow-y: scroll;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+
+    
+
+    img { width: 270px;
+          height: 300px;
+     }
+
+    .close {  
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+       
+    }
+
+    p {
+        padding-top: 30px;
+        line-height: 20px;
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Alata', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+}
+
+h3 {
+    padding-bottom: 25px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+}
+}
+
+.show-lb { display: flex !important;}
+
+.lightbox-video { 
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+
+    
+    .close-btn-video {  
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+       
+    }
+}
+
+.show-lb-video { display: flex !important;}
+
+
+
+.lb-content {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+
+.lightbox-form { 
+    display: none;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    background-color: rgb(198,86,84);
+    background: linear-gradient(90deg, rgba(198,86,84,1) 0%, rgba(253,145,102,1) 100%);
+
+    
+    .close-btn-form {  
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+    .contact-message {
+        p {
+            padding-top: 60%;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Alata', sans-serif;
+            text-transform: uppercase;
+            line-height: 35px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+       
+    
+}
+
+.show-lb-form { display: flex !important;}
+
+
+
+@media screen and (min-width: 768px) {
+    .lightbox {
+        .lb-content {
+            margin-top: 100px;
+        }
+        h3 {
+            padding-bottom: 50px;
+            font-size: 30px;
+        }
+
+        img {
+            width: 340px;
+            height: 400px;
+        }
+
+        p {
+            padding-top: 30px;
+            line-height: 30px;
+            color: white;
+            font-size: 23px;
+            padding-left: 35px;
+            padding-right: 35px;}
+    }
+
+    .lightbox-form {
+    .contact-message {
+        p {
+            padding-top: 40%;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Alata', sans-serif;
+            text-transform: uppercase;
+            line-height: 50px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+ .lightbox {
+
+    .lb-content {
+        margin-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+
+        img {
+            width: 540px;
+            height: 600px;
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+    }
+
+    h3 {
+        font-size: 35px;
+        position: absolute;
+    }
+
+    
+
+    p {
+        padding-top: 250px;
+        line-height: 35px;
+        color: white;
+        font-size: 25px;
+        padding-left: 200px;
+        padding-right: 100px;
+        text-align: left;
+    }
+}
+
+.lightbox-form {
+    .contact-message {
+        p {
+            padding-top: 20%;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Alata', sans-serif;
+            text-transform: uppercase;
+            line-height: 60px;
+            margin-left: 20%;
+            margin-right: 15px;
+        }
+    }
+
+}
+
+}
+
+ 
+    
+
+    
+
+
+
+
+
