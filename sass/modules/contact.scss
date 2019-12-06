@@ -2,7 +2,8 @@
 @import 'about';
 .contact {
     width: 100%; 
-    min-height: 1080px; 
+    min-height: 100vh;
+     
     background: url(../images/contact_page.jpg) center no-repeat;
     background-size: cover;
 
@@ -261,6 +262,10 @@ border-bottom: 3px solid #60454c;
 }
 
 @media screen and (min-width: 1200px) {
+
+    .contact {
+        min-height: 1080px;
+    }
     .slider-about-2 {
         background: none;
     }

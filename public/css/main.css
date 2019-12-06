@@ -95,7 +95,7 @@ table {
 
 .about {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/about_page.jpg) center no-repeat;
   background-size: cover; }
   .about h3 {
@@ -181,10 +181,12 @@ table {
       margin: 50px auto 0 60px; }
   .about .box-about {
     padding-top: 50px; }
-  .about p {
-    line-height: 40px;
-    text-align: left;
-    font-size: 26px; }
+  .about {
+    min-height: 1080px; }
+    .about p {
+      line-height: 40px;
+      text-align: left;
+      font-size: 26px; }
   .top {
     margin-top: 160px; }
   .description-desktop {
@@ -193,7 +195,7 @@ table {
 
 .contact {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/contact_page.jpg) center no-repeat;
   background-size: cover; }
   .contact h2 {
@@ -360,6 +362,8 @@ table {
     margin-top: 100px; } }
 
 @media screen and (min-width: 1200px) {
+  .contact {
+    min-height: 1080px; }
   .slider-about-2 {
     background: none; }
   #formThree {
@@ -629,7 +633,7 @@ nav {
 
 .about {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/about_page.jpg) center no-repeat;
   background-size: cover; }
   .about h3 {
@@ -715,10 +719,12 @@ nav {
       margin: 50px auto 0 60px; }
   .about .box-about {
     padding-top: 50px; }
-  .about p {
-    line-height: 40px;
-    text-align: left;
-    font-size: 26px; }
+  .about {
+    min-height: 1080px; }
+    .about p {
+      line-height: 40px;
+      text-align: left;
+      font-size: 26px; }
   .top {
     margin-top: 160px; }
   .description-desktop {
@@ -727,7 +733,7 @@ nav {
 
 .about {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/about_page.jpg) center no-repeat;
   background-size: cover; }
   .about h3 {
@@ -813,10 +819,12 @@ nav {
       margin: 50px auto 0 60px; }
   .about .box-about {
     padding-top: 50px; }
-  .about p {
-    line-height: 40px;
-    text-align: left;
-    font-size: 26px; }
+  .about {
+    min-height: 1080px; }
+    .about p {
+      line-height: 40px;
+      text-align: left;
+      font-size: 26px; }
   .top {
     margin-top: 160px; }
   .description-desktop {
@@ -825,7 +833,7 @@ nav {
 
 .portfolio {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/portfolio_page.jpg) center no-repeat;
   background-size: cover; }
   .portfolio h2 {
@@ -1027,7 +1035,7 @@ nav {
   .portfolio h2 {
     padding-bottom: 45px; }
   .portfolio {
-    height: 110%; }
+    min-height: 1080px; }
   .box-about-portfolio {
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -1041,7 +1049,7 @@ nav {
 
 .home-page {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/home_page.jpg) center no-repeat;
   background-size: cover;
   text-align: center;
@@ -1498,8 +1506,10 @@ nav {
     margin: 0 auto 0 auto; } }
 
 @media screen and (min-width: 1200px) {
-  .home-page h2 {
-    margin-top: 8%; }
+  .home-page {
+    min-height: 1080px; }
+    .home-page h2 {
+      margin-top: 8%; }
   .bubble-2 {
     display: block;
     margin-left: -5%;

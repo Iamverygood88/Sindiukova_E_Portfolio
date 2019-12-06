@@ -19,7 +19,7 @@
 
 
     width: 100%;
-    min-height: 1080px; 
+    min-height: 100vh; 
     background: url(../images/home_page.jpg) center no-repeat;
     background-size: cover;
     text-align: center;
@@ -555,7 +555,11 @@
 
 @media screen and (min-width: 1200px) {
 
+   
+
     .home-page {
+
+        min-height: 1080px;
 
 
         h2 {

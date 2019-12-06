@@ -1,6 +1,6 @@
 .about {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/about_page.jpg) center no-repeat;
   background-size: cover; }
   .about h3 {
@@ -86,10 +86,12 @@
       margin: 50px auto 0 60px; }
   .about .box-about {
     padding-top: 50px; }
-  .about p {
-    line-height: 40px;
-    text-align: left;
-    font-size: 26px; }
+  .about {
+    min-height: 1080px; }
+    .about p {
+      line-height: 40px;
+      text-align: left;
+      font-size: 26px; }
   .top {
     margin-top: 160px; }
   .description-desktop {
@@ -98,7 +100,7 @@
 
 .portfolio {
   width: 100%;
-  min-height: 1080px;
+  min-height: 100vh;
   background: url(../images/portfolio_page.jpg) center no-repeat;
   background-size: cover; }
   .portfolio h2 {
@@ -300,7 +302,7 @@
   .portfolio h2 {
     padding-bottom: 45px; }
   .portfolio {
-    height: 110%; }
+    min-height: 1080px; }
   .box-about-portfolio {
     padding-top: 50px;
     padding-bottom: 50px; }

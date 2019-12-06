@@ -4,7 +4,8 @@
 
 .portfolio {
     width: 100%; 
-    min-height: 1080px; 
+     
+    min-height: 100vh;
     background: url(../images/portfolio_page.jpg) center no-repeat;
     background-size: cover;
 
@@ -315,7 +316,7 @@
 
     .portfolio {
          
-        height: 110%; 
+        min-height: 1080px;
 
     }
 
