@@ -539,6 +539,11 @@ table {
     padding-left: 200px;
     padding-right: 100px;
     text-align: left; }
+  .lightbox .lb-content img {
+    min-width: 540px;
+    min-height: 600px;
+    margin-top: 100px;
+    margin-left: 30px; }
   .lightbox-form .contact-message p {
     padding-top: 20%;
     color: white;
@@ -839,6 +844,9 @@ nav {
     text-align: center;
     font-family: 'Alata', sans-serif; }
 
+video {
+  margin: 0 auto; }
+
 .box-about-portfolio {
   padding-top: 20px;
   padding-bottom: 80px;
@@ -1003,7 +1011,8 @@ nav {
 
 @media screen and (min-width: 1200px) {
   .project-wrapper {
-    width: 1000px; }
+    width: 1000px;
+    height: 770px; }
   .projects {
     width: 1000px;
     height: 100%;
@@ -1860,6 +1869,6 @@ nav {
     border-right: 10px solid white;
     border-bottom: 10px solid white; }
   .name-surname {
-    margin-top: 8%; }
+    margin-top: 200px; }
   .button-video {
-    margin: 2% auto 0 auto; } }
+    margin: 0 auto 0 auto; } }

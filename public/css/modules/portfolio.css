@@ -112,6 +112,9 @@
     text-align: center;
     font-family: 'Alata', sans-serif; }
 
+video {
+  margin: 0 auto; }
+
 .box-about-portfolio {
   padding-top: 20px;
   padding-bottom: 80px;
@@ -276,7 +279,8 @@
 
 @media screen and (min-width: 1200px) {
   .project-wrapper {
-    width: 1000px; }
+    width: 1000px;
+    height: 770px; }
   .projects {
     width: 1000px;
     height: 100%;
